@@ -2,18 +2,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
-        Scanner in = new Scanner (System.in);
-        int num = in.nextInt();
-        if (num>100){
-            System.out.println("The number is greater than 100");
+        Scanner in=new Scanner(System.in);
+        System.out.print("Enter no of times to print: ");
+        int nt=in.nextInt();
+        for (int i=0;i<nt;i++){
+            System.out.println("Hello");
         }
 
-        else if (num<100){
-            System.out.println("The number is less than 100");
-        }
-
-        else{
-            System.out.println("None");
-        }
+        // while and do-while are same as C program
     }
 }

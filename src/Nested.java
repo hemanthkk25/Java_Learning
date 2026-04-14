@@ -12,7 +12,6 @@ public class Nested{
         String department = in.next();
 
         switch (empID) {
-
             case 1:
                 System.out.println("Hemanth");
                 break;
@@ -22,8 +21,8 @@ public class Nested{
                 break;
 
             case 3:
+                System.out.print("Emp 3 name");
                 switch (department) {
-
                     case "IT":
                         System.out.println("IT Department");
                         break;
